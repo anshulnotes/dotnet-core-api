@@ -24,6 +24,7 @@ namespace WebApplication2
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            // another comment
             services.AddMvc();
             var container = new Container();
             container.Configure(config =>
